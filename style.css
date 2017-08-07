@@ -1,51 +1,50 @@
 @font-face {
-    font-family: 'RestaurantPress';
-    src:    url('fonts/RestaurantPress.eot?2ltc5b');
-    src:    url('fonts/RestaurantPress.eot?2ltc5b#iefix') format('embedded-opentype'),
-        url('fonts/RestaurantPress.ttf?2ltc5b') format('truetype'),
-        url('fonts/RestaurantPress.woff?2ltc5b') format('woff'),
-        url('fonts/RestaurantPress.svg?2ltc5b#RestaurantPress') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'RestaurantPress';
+  src:  url('fonts/RestaurantPress.eot?o6q6yg');
+  src:  url('fonts/RestaurantPress.eot?o6q6yg#iefix') format('embedded-opentype'),
+    url('fonts/RestaurantPress.ttf?o6q6yg') format('truetype'),
+    url('fonts/RestaurantPress.woff?o6q6yg') format('woff'),
+    url('fonts/RestaurantPress.svg?o6q6yg#RestaurantPress') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 [class^="rpicon-"], [class*=" rpicon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'RestaurantPress' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'RestaurantPress' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .rpicon-logo:before {
-    content: "\e001";
+  content: "\e001";
 }
 .rpicon-dinner:before {
-    content: "\e002";
+  content: "\e002";
 }
 .rpicon-chef:before {
-    content: "\e003";
+  content: "\e003";
 }
 .rpicon-close:before {
-    content: "\e004";
+  content: "\e004";
 }
 .rpicon-contract:before {
-    content: "\e005";
+  content: "\e005";
 }
 .rpicon-expand:before {
-    content: "\e006";
+  content: "\e006";
 }
 .rpicon-right:before {
-    content: "\e007";
+  content: "\e007";
 }
 .rpicon-left:before {
-    content: "\e008";
+  content: "\e008";
 }
-

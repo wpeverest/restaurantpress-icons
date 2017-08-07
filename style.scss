@@ -1,69 +1,69 @@
 @import "variables";
 
 @font-face {
-    font-family: 'RestaurantPress';
-    src:    url('#{$icomoon-font-path}/RestaurantPress.eot?2ltc5b');
-    src:    url('#{$icomoon-font-path}/RestaurantPress.eot?2ltc5b#iefix') format('embedded-opentype'),
-        url('#{$icomoon-font-path}/RestaurantPress.ttf?2ltc5b') format('truetype'),
-        url('#{$icomoon-font-path}/RestaurantPress.woff?2ltc5b') format('woff'),
-        url('#{$icomoon-font-path}/RestaurantPress.svg?2ltc5b#RestaurantPress') format('svg');
-    font-weight: normal;
-    font-style: normal;
+  font-family: 'RestaurantPress';
+  src:  url('#{$icomoon-font-path}/RestaurantPress.eot?o6q6yg');
+  src:  url('#{$icomoon-font-path}/RestaurantPress.eot?o6q6yg#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/RestaurantPress.ttf?o6q6yg') format('truetype'),
+    url('#{$icomoon-font-path}/RestaurantPress.woff?o6q6yg') format('woff'),
+    url('#{$icomoon-font-path}/RestaurantPress.svg?o6q6yg#RestaurantPress') format('svg');
+  font-weight: normal;
+  font-style: normal;
 }
 
 [class^="rpicon-"], [class*=" rpicon-"] {
-    /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'RestaurantPress' !important;
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'RestaurantPress' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
 
-    /* Better Font Rendering =========== */
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .rpicon-logo {
-    &:before {
-        content: $rpicon-logo;
-    }
+  &:before {
+    content: $rpicon-logo;
+  }
 }
 .rpicon-dinner {
-    &:before {
-        content: $rpicon-dinner;
-    }
+  &:before {
+    content: $rpicon-dinner;
+  }
 }
 .rpicon-chef {
-    &:before {
-        content: $rpicon-chef;
-    }
+  &:before {
+    content: $rpicon-chef;
+  }
 }
 .rpicon-close {
-    &:before {
-        content: $rpicon-close;
-    }
+  &:before {
+    content: $rpicon-close;
+  }
 }
 .rpicon-contract {
-    &:before {
-        content: $rpicon-contract;
-    }
+  &:before {
+    content: $rpicon-contract;
+  }
 }
 .rpicon-expand {
-    &:before {
-        content: $rpicon-expand;
-    }
+  &:before {
+    content: $rpicon-expand;
+  }
 }
 .rpicon-right {
-    &:before {
-        content: $rpicon-right;
-    }
+  &:before {
+    content: $rpicon-right;
+  }
 }
 .rpicon-left {
-    &:before {
-        content: $rpicon-left;
-    }
+  &:before {
+    content: $rpicon-left;
+  }
 }
 
