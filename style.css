@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'RestaurantPress';
-  src:  url('fonts/RestaurantPress.eot?o6q6yg');
-  src:  url('fonts/RestaurantPress.eot?o6q6yg#iefix') format('embedded-opentype'),
-    url('fonts/RestaurantPress.ttf?o6q6yg') format('truetype'),
-    url('fonts/RestaurantPress.woff?o6q6yg') format('woff'),
-    url('fonts/RestaurantPress.svg?o6q6yg#RestaurantPress') format('svg');
+  src:  url('fonts/RestaurantPress.eot?1cn0ik');
+  src:  url('fonts/RestaurantPress.eot?1cn0ik#iefix') format('embedded-opentype'),
+    url('fonts/RestaurantPress.ttf?1cn0ik') format('truetype'),
+    url('fonts/RestaurantPress.woff?1cn0ik') format('woff'),
+    url('fonts/RestaurantPress.svg?1cn0ik#RestaurantPress') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -33,18 +33,30 @@
 .rpicon-chef:before {
   content: "\e003";
 }
-.rpicon-close:before {
+.rpicon-status-pending:before {
   content: "\e004";
 }
-.rpicon-contract:before {
+.rpicon-status-confirmed:before {
   content: "\e005";
 }
-.rpicon-expand:before {
+.rpicon-confirmed:before {
   content: "\e006";
 }
-.rpicon-right:before {
+.rpicon-status-check-in:before {
   content: "\e007";
 }
-.rpicon-left:before {
+.rpicon-status-closed:before {
   content: "\e008";
+}
+.rpicon-error:before {
+  content: "\e009";
+}
+.rpicon-user:before {
+  content: "\e00a";
+}
+.rpicon-note:before {
+  content: "\e00b";
+}
+.rpicon-windows:before {
+  content: "\e00c";
 }

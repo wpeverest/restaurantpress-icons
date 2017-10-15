@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'RestaurantPress';
-  src:  url('#{$icomoon-font-path}/RestaurantPress.eot?o6q6yg');
-  src:  url('#{$icomoon-font-path}/RestaurantPress.eot?o6q6yg#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/RestaurantPress.ttf?o6q6yg') format('truetype'),
-    url('#{$icomoon-font-path}/RestaurantPress.woff?o6q6yg') format('woff'),
-    url('#{$icomoon-font-path}/RestaurantPress.svg?o6q6yg#RestaurantPress') format('svg');
+  src:  url('#{$icomoon-font-path}/RestaurantPress.eot?1cn0ik');
+  src:  url('#{$icomoon-font-path}/RestaurantPress.eot?1cn0ik#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/RestaurantPress.ttf?1cn0ik') format('truetype'),
+    url('#{$icomoon-font-path}/RestaurantPress.woff?1cn0ik') format('woff'),
+    url('#{$icomoon-font-path}/RestaurantPress.svg?1cn0ik#RestaurantPress') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -41,29 +41,49 @@
     content: $rpicon-chef;
   }
 }
-.rpicon-close {
+.rpicon-status-pending {
   &:before {
-    content: $rpicon-close;
+    content: $rpicon-status-pending;
   }
 }
-.rpicon-contract {
+.rpicon-status-confirmed {
   &:before {
-    content: $rpicon-contract;
+    content: $rpicon-status-confirmed;
   }
 }
-.rpicon-expand {
+.rpicon-confirmed {
   &:before {
-    content: $rpicon-expand;
+    content: $rpicon-confirmed;
   }
 }
-.rpicon-right {
+.rpicon-status-check-in {
   &:before {
-    content: $rpicon-right;
+    content: $rpicon-status-check-in;
   }
 }
-.rpicon-left {
+.rpicon-status-closed {
   &:before {
-    content: $rpicon-left;
+    content: $rpicon-status-closed;
+  }
+}
+.rpicon-error {
+  &:before {
+    content: $rpicon-error;
+  }
+}
+.rpicon-user {
+  &:before {
+    content: $rpicon-user;
+  }
+}
+.rpicon-note {
+  &:before {
+    content: $rpicon-note;
+  }
+}
+.rpicon-windows {
+  &:before {
+    content: $rpicon-windows;
   }
 }
 
