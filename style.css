@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'RestaurantPress';
-  src:  url('fonts/RestaurantPress.eot?hhbzlt');
-  src:  url('fonts/RestaurantPress.eot?hhbzlt#iefix') format('embedded-opentype'),
-    url('fonts/RestaurantPress.ttf?hhbzlt') format('truetype'),
-    url('fonts/RestaurantPress.woff?hhbzlt') format('woff'),
-    url('fonts/RestaurantPress.svg?hhbzlt#RestaurantPress') format('svg');
+  src:  url('fonts/RestaurantPress.eot?sv8tzl');
+  src:  url('fonts/RestaurantPress.eot?sv8tzl#iefix') format('embedded-opentype'),
+    url('fonts/RestaurantPress.ttf?sv8tzl') format('truetype'),
+    url('fonts/RestaurantPress.woff?sv8tzl') format('woff'),
+    url('fonts/RestaurantPress.svg?sv8tzl#RestaurantPress') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -33,33 +33,15 @@
 .rpicon-chef:before {
   content: "\e003";
 }
-.rpicon-enabled:before {
+.rpicon-manual:before {
   content: "\e004";
 }
-.rpicon-disabled:before {
+.rpicon-enabled:before {
   content: "\e005";
 }
-.rpicon-error:before {
+.rpicon-disabled:before {
   content: "\e006";
 }
-.rpicon-right:before {
-  content: "\e007";
-}
-.rpicon-note:before {
-  content: "\e008";
-}
 .rpicon-confirmed:before {
-  content: "\e009";
-}
-.rpicon-user:before {
-  content: "\e00a";
-}
-.rpicon-windows:before {
-  content: "\e00b";
-}
-.rpicon-status-pending:before {
-  content: "\e00c";
-}
-.rpicon-status-confirmed:before {
-  content: "\e00d";
+  content: "\e007";
 }

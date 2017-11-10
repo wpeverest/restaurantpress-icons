@@ -2,11 +2,11 @@
 
 @font-face {
   font-family: 'RestaurantPress';
-  src:  url('#{$icomoon-font-path}/RestaurantPress.eot?hhbzlt');
-  src:  url('#{$icomoon-font-path}/RestaurantPress.eot?hhbzlt#iefix') format('embedded-opentype'),
-    url('#{$icomoon-font-path}/RestaurantPress.ttf?hhbzlt') format('truetype'),
-    url('#{$icomoon-font-path}/RestaurantPress.woff?hhbzlt') format('woff'),
-    url('#{$icomoon-font-path}/RestaurantPress.svg?hhbzlt#RestaurantPress') format('svg');
+  src:  url('#{$icomoon-font-path}/RestaurantPress.eot?sv8tzl');
+  src:  url('#{$icomoon-font-path}/RestaurantPress.eot?sv8tzl#iefix') format('embedded-opentype'),
+    url('#{$icomoon-font-path}/RestaurantPress.ttf?sv8tzl') format('truetype'),
+    url('#{$icomoon-font-path}/RestaurantPress.woff?sv8tzl') format('woff'),
+    url('#{$icomoon-font-path}/RestaurantPress.svg?sv8tzl#RestaurantPress') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -41,6 +41,11 @@
     content: $rpicon-chef;
   }
 }
+.rpicon-manual {
+  &:before {
+    content: $rpicon-manual;
+  }
+}
 .rpicon-enabled {
   &:before {
     content: $rpicon-enabled;
@@ -51,44 +56,9 @@
     content: $rpicon-disabled;
   }
 }
-.rpicon-error {
-  &:before {
-    content: $rpicon-error;
-  }
-}
-.rpicon-right {
-  &:before {
-    content: $rpicon-right;
-  }
-}
-.rpicon-note {
-  &:before {
-    content: $rpicon-note;
-  }
-}
 .rpicon-confirmed {
   &:before {
     content: $rpicon-confirmed;
-  }
-}
-.rpicon-user {
-  &:before {
-    content: $rpicon-user;
-  }
-}
-.rpicon-windows {
-  &:before {
-    content: $rpicon-windows;
-  }
-}
-.rpicon-status-pending {
-  &:before {
-    content: $rpicon-status-pending;
-  }
-}
-.rpicon-status-confirmed {
-  &:before {
-    content: $rpicon-status-confirmed;
   }
 }
 
